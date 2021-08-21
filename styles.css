@@ -42,7 +42,6 @@ body {
     flex-direction: column;
     text-align: left;
     border-bottom: none;
-    height: 100%;
     
 }
 
@@ -61,7 +60,7 @@ body {
 }
 
 
-.panel section h1 {
+.panel section h2 {
     text-transform: uppercase;
     font-size: 2.1rem;
     color: var(--major-color);
@@ -139,13 +138,9 @@ body {
         border-radius: 10px ;
         width: 80%;
         height: 100%;
+        align-items: stretch;
 
     }
-
-    .panel  section {
-        height: 100%;
-    }
-
      .sedan {
         border-top-right-radius: 0;
         border-bottom-left-radius: 10px;
