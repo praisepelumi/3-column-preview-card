@@ -23,9 +23,10 @@ Users should be able to:
 ### Screenshots-of-live-site
 Here are some screenshots of my solution for both the mobile and desktop site. 
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+This is the desktop site
+![Desktop Site](/images/3ColumnDesktopFull.jpeg?raw=true "Desktop Site")
 
-![Desktop SIte](/images/3ColumnDesktopFull.jpeg?raw=true "Desktop Site")
+This is the mobile site
 ![Mobile Site](/images/3ColumnMobile.jpeg?raw=true "Mobile Site")
 
 ### Links-to-solution
