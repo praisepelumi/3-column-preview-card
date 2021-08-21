@@ -45,4 +45,4 @@ This is the mobile site
 ## Author
 
 - Website - [Praise Emmanuel](https://github.com/praisepelumi)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/praisepelumi)
+- Frontend Mentor - [@praispelumi](https://www.frontendmentor.io/profile/praisepelumi)
