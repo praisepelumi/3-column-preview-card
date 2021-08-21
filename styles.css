@@ -1,0 +1,159 @@
+:root {
+    --sedan-bg-color: hsl(31, 77%, 52%); /*First block*/
+    --suv-bg-color:hsl(184, 100%, 22%); /*Second block*/
+    --luxury-bg-color: hsl(179, 100%, 13%);  /*Third block*/
+    --paragraph-color: hsla(0, 0%, 100%, 0.75); /*For paragraphs*/
+    --major-color: hsl(0, 0%, 95%); /*To be used for background, headings and buttons */
+    --body-fontsize: 15px;
+}
+
+html {
+    /* font-size: var(--body-fontsize); */
+    font-size: 15px;
+
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 960px;
+    height: 100%
+    
+}
+
+/*Styling each box in the panel*/
+.panel  section {  
+    display: flex;
+    padding: 2.5rem;
+    flex-direction: column;
+    text-align: left;
+    border-bottom: none;
+    height: 100%;
+    
+}
+
+.sedan {
+    background-color: var(--sedan-bg-color);
+    border-radius: 10px 10px 0 0;
+}
+
+.suv {
+    background-color: var(--suv-bg-color);
+}
+
+.luxury {
+    background-color: var(--luxury-bg-color);
+    border-radius: 0 0 10px 10px;
+}
+
+
+.panel section h1 {
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    color: var(--major-color);
+    font-family: 'Big Shoulders Display', 'cursive', 'sans-serif';
+    font-weight: 700;
+
+
+}
+
+
+.car-information {
+    color: var(--paragraph-color);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.7rem;
+    margin-top: -1rem;
+    line-height: 1.5rem;
+}
+
+.sedan-button {
+    color: var(--sedan-bg-color);
+}
+
+.suv-button {
+    color: var(--suv-bg-color);
+}
+
+.luxury-button {
+    color: var(--luxury-bg-color);
+}
+
+.general-button {
+    background-color: var(--major-color);
+    border-radius: 5rem;  
+    padding: 0.89rem; 
+    margin: 1.1em 0;
+    /* transform: scale(1rem); */
+    border: none;
+    width: 8rem; 
+}
+
+.general-button:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all 0.5s ease-in-out;
+}
+
+.sedan-button:hover {
+    color: var(--paragraph-color);
+    background-color: var(--sedan-bg-color);
+    
+}
+
+.suv-button:hover {
+    color: var(--paragraph-color);
+    background-color: var(--suv-bg-color);
+   
+}
+
+.luxury-button:hover {
+    color: var(--paragraph-color);
+    background-color: var(--luxury-bg-color);
+    
+}
+
+.attribution {
+    text-align: center;
+    margin: 1.1rem;
+    display: block;
+}
+
+@media only screen and (min-width: 560px) {
+    .panel {
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px ;
+        width: 80%;
+        height: 100%;
+
+    }
+
+    .panel  section {
+        height: 100%;
+    }
+
+     .sedan {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+
+    .luxury {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+    
+}
